@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Қазақстан тарихының даму жолы</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f6f9;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(120deg, #0059b3, #0099cc);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    nav {
+      background: #003366;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 60px auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      padding: 40px;
+      transition: transform 0.3s;
+    }
+
+    section:hover {
+      transform: scale(1.02);
+    }
+
+    section h2 {
+      color: #004c99;
+      border-left: 5px solid #ffcc00;
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+
+    section img {
+      width: 100%;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+
+    footer {
+      text-align: center;
+      background: #0059b3;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    .timeline {
+      border-left: 3px solid #0099cc;
+      padding-left: 20px;
+      margin-top: 20px;
+    }
+
+    .timeline div {
+      margin-bottom: 20px;
+    }
+
+    .timeline h3 {
+      color: #0059b3;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Қазақстан тарихының даму жолы</h1>
+    <p>Ежелгі дәуірден бүгінгі тәуелсіз Қазақстанға дейін</p>
+  </header>
+
+  <nav>
+    <a href="#ancient">Ежелгі дәуір</a>
+    <a href="#khanate">Қазақ хандығы</a>
+    <a href="#soviet">Кеңес дәуірі</a>
+    <a href="#modern">Тәуелсіз Қазақстан</a>
+  </nav>
+
+  <section id="ancient">
+    <h2>1. Ежелгі Қазақстан</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Issyk_Golden_Man.jpg" alt="Алтын адам">
+    <p>Қазақстан аумағы — адамзаттың ежелгі өркениет ошақтарының бірі. Бұл жерде Андрон және Беғазы-Дәндібай мәдениеттері қалыптасты. 
+    Алтын адам — ежелгі сақ қоғамының жоғары мәдениеті мен өнерінің көрінісі.</p>
+  </section>
+
+  <section id="khanate">
+    <h2>2. Қазақ хандығының құрылуы</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Kerey_and_Janibek_Khans_Monument_in_Astana.jpg" alt="Қазақ хандығы">
+    <div class="timeline">
+      <div>
+        <h3>1465 жыл</h3>
+        <p>Керей мен Жәнібек сұлтандар Шу мен Талас өңірінде алғашқы Қазақ хандығын құрды.</p>
+      </div>
+      <div>
+        <h3>XV–XVII ғ.</h3>
+        <p>Қазақ хандығының аумағы кеңейді, ұлттық бірлік нығая түсті.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="soviet">
+    <h2>3. Кеңес дәуірі</h2>
+    <p>XX ғасырдың басында Қазақстан КСРО құрамында болды. Бұл кезеңде елде индустрияландыру, ұжымдастыру, соғыс және тың игеру сияқты маңызды тарихи оқиғалар өтті.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Almaty_1950s.jpg" alt="Кеңес дәуірі">
+  </section>
+
+  <section id="modern">
+    <h2>4. Тәуелсіз Қазақстан</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg" alt="Қазақстан туы">
+    <p>1991 жылы 16 желтоқсанда Қазақстан өз тәуелсіздігін жариялады. Бүгінде ел аймақтық және жаһандық деңгейде маңызды рөл атқарып келеді.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 | Университеттік финалдық жоба | Автор: [атың]</p>
+  </footer>
+
+</body>
+</html>
